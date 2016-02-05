@@ -1,0 +1,7 @@
+#Fields:	date	time	type	message
+2016-01-24	05:38:03	NOTICE	Environment: Backup 2.2; WordPress 4.4.1; PHP 5.5.9-1ubuntu4.14; SAPI apache2handler; OS Linux; ZIP 1.11.0; CURL 7.35.0; Time limit 600s; Memory limit 256M
+2016-01-24	05:38:03	NOTICE	Attempting to dump database.
+2016-01-24	05:38:04	NOTICE	The database dump was completed successfully in 1,257 seconds.
+2016-01-24	05:38:04	NOTICE	Attempting to create archive 'Publiek-Vervoer-Noord-Groningen-o1fwv8.zip'.
+2016-01-24	05:38:11	NOTICE	Successfully archived 1.044 files in 6,326 seconds. Archive file size is 28,67 MB.
+2016-01-24	05:38:11	NOTICE	Backup process completed in 15,206 seconds. Initial PHP memory usage was 7,50 MB and the backup process used another 1,00 MB of RAM.

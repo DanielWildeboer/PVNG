@@ -1,0 +1,811 @@
+/*
+ * Description:	Thema voor de PVNG site!
+ * Page: 		style.css
+ * Author: 		INF2H
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+
+.container
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	margin:0;
+}
+
+html
+{
+	height: 100%;
+}
+
+a
+{
+	color: #930000;
+}
+
+.the-content
+{
+	font-size: 18px;
+}
+
+.content
+{
+	margin-bottom: 160px;
+	margin-top: 5px;
+}
+
+.navbar
+{
+	background-color: #930000;
+	color: white !important;
+}
+
+.navbar-brand
+{
+	color: white !important;
+}
+
+.menu-item a
+{
+	font-size: 18px !important;
+}
+
+#hoofdMenuContainer
+{
+	background-color: #ffffff;
+	height: auto;
+	border-bottom: 25px solid #1b3e5e;
+	padding-bottom: 10px;
+}
+
+.eersteMenuContainer
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-top: 1px solid #09103a;
+	border-bottom: 1px solid #09103a;
+	text-align: center;
+}
+
+.tweedeMenuContainer
+{
+	width: 100%;
+	text-align: center;
+}
+
+.lijnen
+{
+	margin: 0 auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+	padding-top:10px;
+	padding-bottom: 10px;
+	height: 46px;
+}
+
+.lijnen a 
+{ 
+	width: auto;
+	color: #09103a;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.lijnen a:hover
+{ 
+	color: #930000;
+}
+
+.lijnen:after 
+{
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+#eersteLijnen li
+{
+	display: inline;
+}
+
+#eersteLijnen li:last-child> a:last-child
+{
+	display: none;
+}
+
+.current-menu-item a
+{
+	color: #930000 !important;
+}
+
+#tweedeLijnen
+{
+	margin: 0 auto;
+	width: 300px;
+}
+
+#tweedeLijnen li
+{
+	display: inline;
+}
+
+#tweedeLijnen li:last-child> a:last-child
+{
+	display: none;
+}
+
+#jumboHeader
+{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	background-size: cover;
+	min-height: 700px;
+}
+
+#jumboHeader2
+{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	background-image: url("images/bigheader.jpg");
+	background-size: cover;
+	min-height: 250px;
+}
+
+.headerlogo
+{
+	padding-left: 0px !important;
+}
+
+.jumbotron p 
+{
+    font-weight: 400 !important;
+}
+
+.well
+{
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.col-md-2{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.col-xs-6{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.col-sm-8{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.col{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#contentHeaderContainer
+{
+	width: auto;
+	
+}
+
+.contentHeaderBlockColumn
+{
+	height:300px;
+}
+
+.contentHeaderBlock
+{
+	height: 300px;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 300px;
+	padding:30px;
+	overflow:hidden;
+}
+.nieuwslijnblok
+{
+	background-color: #2c7c21; 
+}
+
+ @media screen{
+  body>div#sidebar{
+   position:fixed;
+  }
+ }
+ * html body{
+  overflow:hidden;
+ } 
+ * html #content{
+  height:100%;
+  overflow:auto;
+ }
+ 
+ #content
+ {
+	background-color:#ffffff;
+ }
+ 
+.jumboContent
+{
+	padding-bottom:150px;
+}
+
+
+.col-md-3
+{
+	padding: 20px;
+}
+
+.borderbottom
+{
+	padding-bottom: 145px;
+}
+
+.border-right
+{
+	border-right: 1px solid #ccc;
+	height: 200px;
+}
+
+/* MOBIEL CSS */
+@media (max-width: 767px)
+{
+	#cookie-banner
+	{
+		height: auto !important;
+	}
+
+	.close-cookie-banner
+	{
+		margin-left: 0px !important;
+		margin-top: 10px !important;
+	}
+
+	.border-right
+	{
+		border-right: 0px;
+	}
+	
+	.current-menu-item
+	{
+		background-color: white;
+		margin-right: 45px;
+	}
+	
+	.current-menu-item>a
+	{
+		color: black!important;
+	}
+	
+	.navbar-header
+	{
+		background-color: #930000;
+	}
+	
+	.navbar-collapse
+	{
+		background-color: #930000;
+	}
+	
+	.navbar-default .navbar-nav>li>a
+	{
+		color: white;
+	}
+	
+	.sub-menu a 
+	{
+		color: white;
+	}
+
+	.navbar-brand
+	{
+		font-size: 14px;
+	}
+}
+
+/* TABLET CSS */
+@media (max-width: 991px)
+{
+	.toggle-contrast, .toggle-fontsize
+	{
+		color: white;
+	}
+	.blokborder
+	{
+		border-right: 0px !important;
+		border-bottom: 1px solid #ccc;
+	}
+	
+	.navbar-default .navbar-nav>li>a
+	{
+		color: white;
+	}
+	
+	.current-menu-item
+	{
+		background-color: white;
+	}
+	
+	.current-menu-item>a
+	{
+		color: black!important;
+	}
+	
+	.sub-menu a 
+	{
+		color: white;
+	}
+	
+	.toggle-contrast, .toggle-fontsize
+	{
+		font-size: 20px !important;
+		margin-top: 5px;
+	}
+}
+
+.caret
+{
+	display: none !important;
+}
+
+.row
+{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+
+}
+
+#vraagContainer
+{
+    z-index: 1000;
+    position: absolute;
+    float: left;
+}
+
+
+#vraagContainer a
+{
+	text-decoration: underline;
+}
+
+#vraagTitel
+{
+	font-size:28px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.vraagTekstContainer
+{
+	height:150px;
+	overflow:hidden;
+}
+#vraagTekst
+{
+	font-size:18px;
+	margin-bottom: 50px;
+}
+#jaNeeGroup
+{
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+.vraagBox {
+}
+
+#jaAntwoord
+{
+	font-size:18px;
+	background-color: green;
+	width: 100px;
+	margin-right: 25px;
+	padding: 0;
+}
+
+#neeAntwoord
+{
+	font-size:18px;
+	background-color: #930000;
+	width: 100px;
+	padding: 0;
+}
+
+#contentHeaderCarousel
+{
+	height: 100%;
+	width:100%;
+}
+.blokborder
+{
+	border-right: 1px solid #ccc;
+	height: 90px;
+	margin-top: 5px;
+	padding: 10px;
+}
+
+.newsitemblok
+{
+	clear: both;
+	height: auto;
+	min-height: 150px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #ffffff;
+	color: black;
+}
+
+.radionavi
+{
+	z-index: 4;
+}
+
+.busline
+{
+	height: 100%;
+	width: 5px;
+	z-index: 3;
+	position: absolute;
+	top: 0px;
+	left: 19px;
+	background-color: #ffffff;
+}
+
+.contentblok
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.buspic
+{
+	height: 400px;
+	width: 100%;
+}
+
+.buspic1
+{
+	background-image: url("images/theader1.jpg");
+	background-size: cover;
+}
+
+.buspic2
+{
+	background-image: url("images/theader2.jpg");
+	background-size: cover;
+}
+
+.buspic3
+{
+	background-image: url("images/theader3.JPG");
+	background-size: cover;
+}
+
+.buspic4
+{
+	background-image: url("images/theader4.jpg");
+	background-size: cover;
+}
+
+.footer
+{
+	position: relative;
+	min-height: 200px;
+	height: auto;
+	background-color: #1b3e5e;
+	overflow: visible;
+	color: white;
+	/*padding: 5px 0 5px 0;*/
+	top: 45px;
+	width: 100%;
+}
+
+h6
+{
+	font-size: 16px;
+}
+
+.copyrightfooter
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.footerTextContainer
+{
+	
+}
+
+#footerrow
+{
+	margin:0px !important;
+}
+
+#skyline
+{
+	background-image: url("images/footerskyline.svg");
+	height: 190px;
+	width: 100%;
+	position: absolute;
+	top: -190px;
+	z-index: 10;
+}
+
+.footer p
+{
+	padding: 0;
+	display: inline-block;
+}
+
+.footer ul, li
+{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.footer a
+{
+	color: white;
+}
+
+#cookie-banner
+{
+	background-color: #999999;
+	position:fixed;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width:100%;
+	height:41px;
+	z-index: 99999;
+	text-align: center;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.close-cookie-banner
+{
+	background-color: green;
+	border: 1px solid green;
+	color: white;
+	border-radius: 3px;
+}
+
+.close-cookie-banner:hover
+{
+	background-color: darkgreen;
+}
+
+.close-cookie-banner:active
+{
+	background-color: green;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+.jumbotron
+{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.toggle-contrast, .toggle-fontsize
+{
+	font-size: 3em;
+	text-decoration: none !important;
+}
+
+.fontsize .toggle-contrast, .fontsize .toggle-fontsize
+{
+	font-size: 4em !important;
+	text-decoration: none !important;
+}
+
+.toggleBar
+{
+	text-align: right;
+}
+
+.fontsize a
+{
+	font-size: 1.5em !important; 
+}
+
+.fontsize h2
+{
+	font-size: 2em !important; 
+}
+
+.fontsize #vraagTitel, .fontsize #jaAntwoord, .fontsize #neeAntwoord
+{
+	font-size: 2em !important; 
+}
+
+.fontsize .footerTextContainer h4
+{
+	font-size: 2em !important; 
+}
+
+.fontsize .footerTextContainer li h6
+{
+	font-size: 0.6em !important;
+}
+
+.fontsize .the-content
+{
+	font-size: 1.5em !important;
+}
+
+.fontsize .the-content a, .fontsize .the-content li
+{
+	font-size: 1em !important;
+}
+
+.fontsize .carousel-caption h2
+{
+	font-size: 3em !important;
+}
+
+.fontsize .carousel-caption p
+{
+	font-size: 1.7em !important;
+}
+
+.fontsize .menu-item a
+{
+	font-size: 1em !important;
+}
+
+.fontsize .lijnen 
+{
+	height: 50px;
+}
+
+#menu {
+    position: absolute;
+    right: 0px;
+}
+
+
+#menu #lower{
+    color: #1b3e5e;
+    border-top: 3px solid #1b3e5e;
+    height: 100%;
+    text-align: center;
+}
+
+#menu #lower img{
+    padding-top: 58px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#menu ul li {
+    color: #1b3e5e;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.fa-bars {
+	margin-top: 8px;
+	margin-left: 15px;
+    left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: #1b3e5e;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.fa-bars:hover {
+    color: white;
+    background-color: #15314a;
+}
+
+#taxiText {
+	margin-top: 20px;
+    font-weight: normal;
+}
+
+#treinText {
+	margin-top: 20px;
+	font-weight: normal;
+}
+
+#autoText {
+	margin-top: 20px;
+	font-weight: normal;
+}
+
+#busText {
+	margin-top: 20px;
+	font-weight: normal;
+}
+
+#oranjec {
+color: orange;
+	margin-top: 20px;
+}
+
+#roodc {
+	color: red;
+	margin-top: 20px;
+
+}
+#blauwc {
+	color: blue;
+	margin-top: 20px;
+
+
+}#groenc {
+	 color: green;
+	 margin-top: 20px;
+
+ }
+
+iframe{
+	width: 100%;
+	height: 600px;
+	border: 0px;
+	margin-bottom: 250px;
+
+}
+
+
+@media only screen and(max-width: 640px)
+{
+    .mobilebtn {
+    color: pink;
+    background-color: pink;
+    }
+}
+
+#stenden {
+	text-decoration: none;
+}
+
+#stenden:hover {
+	color: grey;
+}
+

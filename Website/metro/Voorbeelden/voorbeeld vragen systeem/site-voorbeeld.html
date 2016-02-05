@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Functie voorbeeld</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="container">
+	<div id="vraag"><h2>Vraag 1.</h2></div>
+	<div id="ja" onclick="ja()"><h3>JA</h3></div>
+	<div id="nee" onclick="nee()"><h3>NEE</h3></div>
+</div>
+<div id="counter"><p>0</p></div>
+
+<script>
+	var counter = 0;
+	var question = 1;
+
+	function ja(){
+		counter++;
+		document.getElementById("counter").innerHTML = counter;
+		question++;
+		if (question == 2) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 2.</h2>";
+		} else if (question == 3) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 3.</h2>";
+		} else if (question == 4) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 4.</h2>";
+		} else if (question == 5) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 5.</h2>";
+		} else if (question == 6) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 6.</h2>";
+		} else if (question == 7) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 7.</h2>";
+		} else if (question == 8) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 8.</h2>";
+		} else if (question == 9) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 9.</h2>";
+		} else if (question == 10) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 10.</h2>";
+		} else {
+			document.getElementById("vraag").innerHTML = "<h2>U heeft alle vragen beantwoord, Bedankt voor u medewerking.</h2>";
+		}
+
+
+	}
+
+	function nee(){
+		counter--;
+		document.getElementById("counter").innerHTML = counter;
+		question++;
+		if (question == 2) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 2.</h2>";
+		} else if (question == 3) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 3.</h2>";
+		} else if (question == 4) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 4.</h2>";
+		} else if (question == 5) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 5.</h2>";
+		} else if (question == 6) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 6.</h2>";
+		} else if (question == 7) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 7.</h2>";
+		} else if (question == 8) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 8.</h2>";
+		} else if (question == 9) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 9.</h2>";
+		} else if (question == 10) {
+			document.getElementById("vraag").innerHTML = "<h2>Vraag 10.</h2>";
+		} else {
+			document.getElementById("vraag").innerHTML = "<h2>U heeft alle vragen beantwoord, Bedankt voor u medewerking.</h2>";
+		}
+	}
+
+</script>
+</body>
+</html>

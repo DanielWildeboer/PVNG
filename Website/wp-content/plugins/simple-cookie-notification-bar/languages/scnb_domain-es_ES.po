@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Cookie Notification Bar\n"
+"POT-Creation-Date: 2015-08-05 10:26+0200\n"
+"PO-Revision-Date: 2015-08-05 10:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/settings-form.php:3
+msgid "Simple Cookie Notification Bar Settings"
+msgstr "Ajustes Simple Cookie Notification Bar"
+
+#: includes/settings-form.php:13
+msgid "Strings"
+msgstr "Textos"
+
+#: includes/settings-form.php:18
+msgid "Message"
+msgstr "Mensaje"
+
+#: includes/settings-form.php:28
+msgid "Label Accept button"
+msgstr "Texto botón 'Aceptar'"
+
+#: includes/settings-form.php:36
+msgid "Label More info button"
+msgstr "Texto botón 'Más Info'"
+
+#: includes/settings-form.php:44
+msgid "Link More info"
+msgstr "Enlace 'Más Info'"
+
+#: includes/settings-form.php:56
+msgid "Style"
+msgstr "Estilo"
+
+#: includes/settings-form.php:64
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+#: includes/settings-form.php:72
+msgid "Text Align"
+msgstr "Alineación"
+
+#: includes/settings-form.php:74
+msgid "center"
+msgstr "centrado"
+
+#: includes/settings-form.php:75
+msgid "left"
+msgstr "izquierda"
+
+#: includes/settings-form.php:76
+msgid "right"
+msgstr "derecha"
+
+#: includes/settings-form.php:77
+msgid "justify"
+msgstr "justificado"
+
+#: includes/settings-form.php:87
+msgid "Display Shadow"
+msgstr "Añadir sombra"
+
+#: includes/settings-form.php:97
+msgid "Text color"
+msgstr "Color de Texto"
+
+#: includes/settings-form.php:107
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: includes/settings-form.php:116
+msgid "Top Border color"
+msgstr "Color borde"
+
+#: includes/settings-form.php:131
+msgid "Buttons background color"
+msgstr "Color fondo Botones"
+
+#: includes/settings-form.php:140
+msgid "Buttons border color"
+msgstr "Color borde Botones"
+
+#: includes/settings-form.php:149
+msgid "Buttons text color"
+msgstr "Color texto Botones"
+
+#: includes/settings-form.php:162
+msgid "Save Options"
+msgstr "Guardar opciones"
+
+#: simple-cookie-notification-bar.php:83
+msgid "Accept"
+msgstr "Aceptar"
+
+#: simple-cookie-notification-bar.php:88
+msgid ""
+"We use our own and third party cookies. If you continue browsing we consider "
+"you accept the use of cookies."
+msgstr ""
+"Este sitio web usa cookies propios y de terceros. Si continúa navegando "
+"consideramos que acepta el uso de las cookies."
+
+#~ msgid "Texts"
+#~ msgstr "Textos"
+
+#~ msgid "Border color"
+#~ msgstr "Color del borde"
+
+#~ msgid "leave blank for no border"
+#~ msgstr "dejar en blanco para no mostrar borde"
